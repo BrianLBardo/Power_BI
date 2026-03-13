@@ -84,7 +84,7 @@ The public dataset is avaible on Kaggle using the following link:
 [Olist Brazilian E-commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
 ## 📥 Power BI File
-The Power BI dashboard (~350MB) is hosted externally.
+The Power BI dashboard is hosted externally.
 Download here:
 🔗 https://drive.google.com/file/d/155kVEPdouROrvvC6Ehnigfb0zPlsl-G0/view?usp=drive_link
 Open the file using **Power BI Desktop**.
