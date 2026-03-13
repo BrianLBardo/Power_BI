@@ -1,19 +1,29 @@
 # ⚡ Olist-Commerce Analytics Dashboard
 
-This project analyzes Brazillian E-commerce operations using **Power BI**.  
+This project analyzes Brazillian Olist Store E-commerce operations using **Power BI**.  
 The project generates insights on revenue trends, delivery performance, customer behavior, and product category performance through interactive dashboards.
 
 ---
 
 ## 🧠 Business Context
+Modern e-commerce platforms generate large volumes of transactional and customer data across multiple systems.  
+To extract business value from this data, organizations must integrate and transform raw data into structured insights that support decision-making.
 
-Q-Commerce platforms like promise quick deliveries within **10–15 minutes**.  
-This project analyzes operational and financial data to understand whether such ultra-fast delivery models can remain **efficient and sustainable**.
+This project simulates a **real-world enterprise analytics environment**, where data is stored and processed across multiple platforms before being integrated into a centralized **business intelligence system**.
+
+Using the **Olist Brazilian E-commerce dataset (2016–2018)**, the project builds a full analytics pipeline that transforms raw transactional data into business insights related to:
+
+- Revenue performance
+- Customer purchasing behavior
+- Delivery logistics efficiency
+- Product category sales trends
+
+The final output is a set of **interactive Power BI dashboards** designed to help executives and analysts monitor performance and identify opportunities for improvement.
 
 ---
 
 ## 📊 Project Overview
-The goal of this project is to perform an **end-to-end analysis of Q-commerce operations** and visualize insights using Power BI dashboards.
+The goal of this project is to perform an **end-to-end analysis of Olist-commerce operations** and visualize insights using Power BI dashboards.
 
 The analysis focuses on:
 - Revenue trend analysis over time
@@ -22,36 +32,50 @@ The analysis focuses on:
 - Product category performance analysis
 - Interactive Power BI dashboards for executive overview and deep-dive analysis
 
+The project also simulates a **multi-tool data pipeline**, where data cleaning and transformation occur across several environments before final visualization.
+
 ---
 
 ## 🛠 Tools & Technologies
-- Power BI  
-- PostgreSQL 
-- Python 
-- Excel 
-- Google Sheets
+- **Power BI** – Data modeling and dashboard visualization  
+- **PostgreSQL** – Storage and transformation of transactional data  
+- **Python (Pandas)** – Cleaning review and geolocation datasets  
+- **Excel** – Product data preparation and category translation cleaning  
+- **Google Sheets** – Storage of executive target metrics  
 
 ---
 
 ## 📈 Key Insights
-- 📦 **3.42M total orders** were analyzed.
-- 💰 **₹169M total revenue** generated across all orders.
-- ⏱ Average delivery time is around **24.5 minutes**.
-- 🥬 **Produce and dairy departments** generate the highest sales.
-- 🔁 Some departments show **high reorder rates**, indicating strong customer loyalty.
+- 📈 **Revenue showed steady growth between 2016–2018**, reflecting increasing adoption of e-commerce in Brazil.
+- 🚚 **Certain regions experienced higher delivery delays**, indicating potential logistics inefficiencies.
+- 👥 **RFM segmentation identified high-value and loyal customers**, enabling targeted marketing and retention strategies.
+- 🛍 **Top product categories generate the majority of revenue**, highlighting opportunities for inventory and marketing optimization.
 
 ---
 
 ## 📂 Dashboard Pages
 
-### 📌 Operational Overview
-High-level KPIs and order trends.
-### 🚚 Delivery Performance
-Delivery time analysis and on-time delivery metrics.
-### 💰 Revenue & Profitability
-Department revenue, discounts, and profit margin analysis.
-### 🛒 Product & Order Insights
-Customer ordering patterns and product performance.
+### 📌 Executive Overview
+A high-level dashboard designed for decision-makers that displays key performance indicators such as:
+- Total Revenue
+- Total Orders
+- Profit Margin
+- Average Order Value
+- Fulfillment Rate
+
+The layout follows a **Z-pattern design**, allowing executives to quickly scan key metrics and revenue trends.
+
+### 🔎 Deep-Dive Analysis
+A detailed analytical dashboard that allows users to explore performance through **interactive filters and drill-down analysis**.
+
+Key features include:
+- Dynamic KPI indicators
+- Geographic revenue analysis
+- Product category filtering
+- Payment type analysis
+- Revenue decomposition by state, city, and category
+
+This page follows an **F-pattern layout**, optimized for analytical exploration.
 
 ---
 
