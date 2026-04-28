@@ -1,6 +1,6 @@
 # ⚡ Olist-Commerce Analytics Dashboard
 
-This project analyzes Brazillian Olist Store E-commerce operations using **Power BI**.  
+This project analyzes Olist Store E-commerce operations using **Power BI**.  
 The project generates insights on revenue trends, delivery performance, customer behavior, and product category performance through interactive dashboards.
 
 ---
@@ -81,7 +81,7 @@ This page follows an **F-pattern layout**, optimized for analytical exploration.
 
 ## Dataset
 The public dataset is avaible on Kaggle using the following link:
-[Olist Brazilian E-commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ## 📥 Power BI File
 The Power BI dashboard is hosted externally.
